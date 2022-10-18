@@ -1,0 +1,9 @@
+文件下载后：
+utils文件中config.yaml是调整参数的，mode:data_preprocess/train（前者代表处理原始数据后者代表对处理好的数据进行训练）
+attention_gg.h5文件是我们训练完的模型，准确率为0.94
+对模型进行训练：1.修改config.yaml mode参数为train 2.运行python run.py 运行完会产生attention.h5文件 3.对模型训练结果可视化混肴矩阵：python hunyaojuzhen.py
+
+训练集提取码:all_data_train_0.5_window_300_overlap_0_no_smooth链接：https://pan.baidu.com/s/1KoyBp5aM-CdnpFGgZqVdcA?pwd=vyq8 
+提取码：vyq8
+测试集提取码：all_data_test_0.5_window_300_overlap_0_no_smooth链接：https://pan.baidu.com/s/1qOx_GNsd432ngGVypVp74A?pwd=86py 
+提取码：86py
